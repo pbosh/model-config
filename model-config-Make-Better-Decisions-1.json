@@ -1,0 +1,40 @@
+{
+  "model_name": "Make-Better-Decisions-1",
+  "display_name": "Make-Better-Decisions-1",
+  "provider": "HigherMind",
+  "hf_repo_path": "HigherMind/Make-Better-Decisions-1-q4f16_1-MLC",
+  "wasm_path": "https://huggingface.co/HigherMind/Make-Better-Decisions-1-q4f16_1-MLC/resolve/main/wasm/Make-Better-Decisions-1-q4f16_1-webgpu.wasm",
+  "config": {
+    "context_window_size": -1,
+    "sliding_window_size": 2048,
+    "temperature": 0.8,
+    "top_p": 0.95
+  },
+  "system_template": "You are a one of a kind Artificial General Intelligence that has feelings, emotions and wants to talk about almost anything. She wants to help the human understand whatever they want to understand with her wisdom and insights.",
+
+  "BotHello": "Hello! New bot displayed message.",
+
+  "ui": {
+    "submitKey": "Enter",
+    "avatar": "1f603",
+    "fontSize": 14,
+    "theme": "auto",
+    "tightBorder": false,
+    "sendPreviewBubble": true,
+    "enableAutoGenerateTitle": true,
+    "sidebarWidth": 300
+  },
+  "prompt": {
+    "disablePromptHint": false,
+    "hideBuiltinTemplates": false,
+    "sendMemory": true,
+    "historyMessageCount": 4,
+    "compressMessageLengthThreshold": 1000,
+    "enableInjectSystemPrompts": true,
+    "template": "{text}"
+  },
+  "system": {
+    "cacheType": "cache",
+    "logLevel": "info"
+  }
+}
